@@ -18,13 +18,13 @@
       "tsconfig": "client/src/tsconfig.json",
       "prefix": "app",
       "styles": [
-        "client/node_modules/bootstrap/dist/css/bootstrap.css",
+        "node_modules/bootstrap/dist/css/bootstrap.css",
         "client/src/styles.scss"
       ],
       "scripts": [
-        "client/node_modules/jquery/dist/jquery.js",
-        "client/node_modules/tether/dist/js/tether.js",
-        "client/node_modules/bootstrap/dist/js/bootstrap.js"
+        "node_modules/jquery/dist/jquery.js",
+        "node_modules/tether/dist/js/tether.js",
+        "node_modules/bootstrap/dist/js/bootstrap.js"
       ],
       "environments": {
         "source": "client/src/environments/environment.ts",
